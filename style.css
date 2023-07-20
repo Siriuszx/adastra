@@ -186,17 +186,36 @@ li {
     background-color: #3882f6;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-radius: 10px;
 }
 
-.main-signup-container h3,p {
+.main-signup-container h3,.main-signup-container p {
     margin: 0;
 }
 
 .main-signup-btn {
+    flex-shrink: 0;
     color: #f9fAf8;
     background-color: #3882f6;
-    border: 3px solid #f9fAf8;
+    border: 2px solid #f9fAf8;
     border-radius: 6px;
     width: 125px;
+    height: 34px;
 }
+
+/* Main sign up end */
+
+/* Footer */
+.footer {
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Footer end */
