@@ -104,8 +104,8 @@ h3 {
 }
 
 .main-pics {
-    padding-top: 36px;
-    padding-bottom: 36px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -122,6 +122,8 @@ h3 {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 48px;
 }
 
 .main-pics-content-el {
@@ -132,8 +134,8 @@ h3 {
 
 .el-pic {
     filter: invert(42%) sepia(81%) saturate(2205%) hue-rotate(201deg) brightness(98%) contrast(96%);
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
 }
 
 /* Main pics end*/
@@ -141,5 +143,22 @@ h3 {
 /* Main quote */
 
 .main-quote {
+    padding: 100px 256px;
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight : 300;
+    font-style: italic;
+    
+}
+
+.main-quote-author {
+    align-self: self-end;
+    font-weight: 900;
+    font-size: 20px;
 }
