@@ -140,13 +140,14 @@ li {
 
 /* Main pics end*/
 
-/* Main quote ping*/
+/* Main quote */
 
 .main-quote {
     padding: 100px 256px;
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .main-quote-text {
@@ -178,7 +179,7 @@ li {
 
 .main-signup-container {
 
-    max-width: 700px;
+    max-width: 900px;
     max-height: 300px;
     color: #f9fAf8;
     padding: 32px 72px;
